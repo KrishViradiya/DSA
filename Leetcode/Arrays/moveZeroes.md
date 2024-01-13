@@ -15,15 +15,13 @@ void moveZeroes(int arr[] , int n){
                 i++;
             }
         }
-
-        printArray(arr,n);
+         printArray(arr,n);
 }    
 
 int main()
 {
      int arr[5] = {0,2,0,1,0};
-
-     moveZeroes(arr , 5);
+      moveZeroes(arr , 5);
     
 return 0;
 }
