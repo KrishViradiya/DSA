@@ -9,4 +9,4 @@ void reverseArray(int arr[] , int n , int m){
     }
 
     printArray(arr,n);
-}
+}j
