@@ -29,7 +29,8 @@ int main()
 
     int n;
     cin>>n;
-
+    // here try n=5000000 and see how fast the algorith works
+    // its time complexity will be O( n* log(logn)) as it will form HP of prime numbers
     int ans = countPrimes(n);
     cout<<ans;
      
