@@ -2,7 +2,12 @@
 using namespace std;
 
 void getGcd(int a,int b){
-    if(a ==0 || b == 0){
+    if(a==0){
+        cout<<"GCD = "<<b;
+        return;
+    }
+
+    if(b==0){
         cout<<"GCD = "<<a;
         return;
     }
