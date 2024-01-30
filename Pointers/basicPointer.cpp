@@ -12,7 +12,7 @@ int main()
     cout<< "Value of &a is: " << &a<<endl;
     cout<< "Value of p is: " << p<<endl;
     cout<< "Value of &p is: " << &p<<endl;
-    cout<< "Value of *p is: " << *p<<endl;
+    cout<< "Value of *p is: " << *p;
     
 return 0;
 }
