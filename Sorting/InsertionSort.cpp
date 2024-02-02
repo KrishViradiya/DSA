@@ -25,6 +25,7 @@ void insertionSort(int arr[] , int n){
             
         }
         //copy temp value
+        cout << "j = " << j << endl;
         arr[j+1] = temp;  
     } 
 
